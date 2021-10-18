@@ -90,7 +90,7 @@ void ArAIMbowHUD::DrawHUD()
 	if (GameActive) {
 		FCanvasTextItem TimerText(FVector2D::ZeroVector, FText::FromString(*FString::SanitizeFloat(GetWorld()->GetTimerManager().GetTimerRemaining(Timer)).Left(5)), PointsFont, FLinearColor::White);
 		TimerText.Text = FText::FromString(*FString::SanitizeFloat(GetWorld()->GetTimerManager().GetTimerRemaining(Timer)).Left(5));
-		Canvas->DrawItem(TimerText, 1120.0f, 10.0f);
+		Canvas->DrawItem(TimerText, 2*Center.X - 90.0f, 10.0f);
 	}
 }
 
