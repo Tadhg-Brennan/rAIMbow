@@ -3,6 +3,7 @@
 
 #include "rAIMbowTarget.h"
 #include "rAIMbowHUD.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
@@ -33,8 +34,13 @@ ArAIMbowTarget::ArAIMbowTarget()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> TargetCentralHitBoxAsset(TEXT("/Game/rAIMbowContent/Objects/TargetCentralHitBox"));
 	TargetCentralHitBox->SetStaticMesh(TargetCentralHitBoxAsset.Object);
 	TargetCentralHitBox->SetupAttachment(TargetPole);
-	TargetCentralHitBox->SetRelativeLocation(FVector(-15.0f, 0.0f, 325.0f));
+	//TargetCentralHitBox->SetRelativeLocation(FVector(-15.0f, 0.0f, 325.0f));
+	TargetCentralHitBox->SetRelativeLocation(FVector(10.0f, 0.0f, 420.0f));
 	TargetCentralHitBox->SetRelativeRotation(FRotator(0.0f, 0.0f, 0.0f));
+
+	//Store animation to play on successful target hit
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> HeartAnimationAsset(TEXT("/Game/rAIMbowContent/HeartAnimation/HeartParticles"));
+	HeartAnimation = HeartAnimationAsset.Object;
 
 	// Create an array to store all possible flags
 	FlagArray = {"Asexual", "Bisexual", "GayMale", "Intersex", "Lesbian", "LGBTQ", "NonBinary", "Pansexual", "Transgender"};
@@ -90,6 +96,9 @@ void ArAIMbowTarget::Tick(float DeltaTime)
 
 void ArAIMbowTarget::TargetHit()
 {
+	//Emit hearts from the target
+	UGameplayStatics* SpawnEmitter;
+	SpawnEmitter->SpawnEmitterAtLocation(GetWorld(), HeartAnimation, GetActorLocation() + FVector(0.0f, 0.0f, 400.0f),GetActorRotation());
 	//Drop all targets
 	TArray<AActor*> FoundTargets;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ArAIMbowTarget::StaticClass(), FoundTargets);

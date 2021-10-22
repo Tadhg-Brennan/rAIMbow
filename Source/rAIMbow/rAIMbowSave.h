@@ -16,4 +16,7 @@ class RAIMBOW_API UrAIMbowSave : public USaveGame
 	
 public:
 	UPROPERTY() int HighScore;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectile)
+	float SavedSensitivity;
 };

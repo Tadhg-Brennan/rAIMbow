@@ -14,7 +14,7 @@
 ArAIMbowHUD::ArAIMbowHUD()
 {
 	// Set the crosshair texture
-	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/FirstPersonCrosshair"));
+	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/HeartCrosshair"));
 	CrosshairTex = CrosshairTexObj.Object;
 
 	// Load any existing high score. If there are no saves, set high score to 0
@@ -119,10 +119,20 @@ void ArAIMbowHUD::TimerEnd() {
 	GameActive = false;
 
 	// Save if a new high score has been achieved
+	if (UGameplayStatics::DoesSaveGameExist("rAIMbowSave", 1)) {
+		UrAIMbowSave* LoadedSave = Cast<UrAIMbowSave>(UGameplayStatics::CreateSaveGameObject(UrAIMbowSave::StaticClass()));
+		LoadedSave = Cast<UrAIMbowSave>(UGameplayStatics::LoadGameFromSlot("rAIMbowSave", 1));
+		SavedSensitivity = LoadedSave->SavedSensitivity;
+	}
+	else {
+		HighScore = 0;
+		SavedSensitivity = 0.45;
+	}
 	if (Points > HighScore) {
 		HighScore = Points;
 		UrAIMbowSave* Save = Cast<UrAIMbowSave>(UGameplayStatics::CreateSaveGameObject(UrAIMbowSave::StaticClass()));
 		Save->HighScore = HighScore;
+		Save->SavedSensitivity = SavedSensitivity;
 		UGameplayStatics::SaveGameToSlot(Save, "rAIMbowSave", 1);
 	}
 

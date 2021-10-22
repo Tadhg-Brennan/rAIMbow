@@ -16,6 +16,7 @@ public:
 
 	int Points;
 	UPROPERTY() int HighScore;
+	UPROPERTY() float SavedSensitivity;
 
 	FString FlagType;
 	UFont* PointsFont;

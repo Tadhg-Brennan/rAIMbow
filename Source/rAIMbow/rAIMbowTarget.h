@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Particles/ParticleSystemComponent.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
@@ -23,6 +24,8 @@ public:
 
 	TArray<FString> FlagArray;
 	int Index;
+
+	UParticleSystem* HeartAnimation;
 
 	// Initialise pride flag materials
 	UMaterialInterface* AsexualFlagMaterial;
