@@ -17,20 +17,23 @@ ArAIMbowHUD::ArAIMbowHUD()
 	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/HeartCrosshair"));
 	CrosshairTex = CrosshairTexObj.Object;
 
-	// Load any existing high score. If there are no saves, set high score to 0
+	// Load any existing high score. If there are no saves, set high scores to 0
 	if (UGameplayStatics::DoesSaveGameExist("rAIMbowSave", 1)) {
 		UrAIMbowSave* LoadedSave = Cast<UrAIMbowSave>(UGameplayStatics::CreateSaveGameObject(UrAIMbowSave::StaticClass()));
 		LoadedSave = Cast<UrAIMbowSave>(UGameplayStatics::LoadGameFromSlot("rAIMbowSave", 1));
-		HighScore = LoadedSave->HighScore;
+		StandardHighScore = LoadedSave->StandardHighScore;
+		CumulativeHighScore = LoadedSave->CumulativeHighScore;
 	}
 	else {
-		HighScore = 0;
+		StandardHighScore = 0;
+		CumulativeHighScore = 0;
 	}
 
-	// Initialise with the game inactive, 0 points, and LGBTQ as the HUD flag
+	// Initialise with the game inactive, game type as standard, 0 points, and LGBTQ as the HUD flag
 	GameActive = false;
 	Points = 0;
 	FlagType = "LGBTQ";
+	GameType = "Standard";
 
 	// Set fonts and audio to be used
 	ConstructorHelpers::FObjectFinder<UFont> PointsFontObject(TEXT("Font'/Game/rAIMbowContent/Font/PixelFont.PixelFont'"));
@@ -82,8 +85,13 @@ void ArAIMbowHUD::DrawHUD()
 	Canvas->DrawItem(PointsText, 10.0f, 10.0f);
 
 	// Create a High Score display 
-	FCanvasTextItem HighScoreText(FVector2D::ZeroVector, FText::FromString(*FString("High Score: " + FString::FromInt(HighScore))), PointsFont, FLinearColor::White);
-	HighScoreText.Text = FText::FromString(*FString("High Score: " + FString::FromInt(HighScore)));
+	FCanvasTextItem HighScoreText(FVector2D::ZeroVector, FText::FromString(*FString("High Score: " + FString::FromInt(StandardHighScore))), PointsFont, FLinearColor::White);
+	if (GameType == "Standard") {
+		HighScoreText.Text = FText::FromString(*FString("High Score: " + FString::FromInt(StandardHighScore)));
+	}
+	else if (GameType == "Cumulative") {
+		HighScoreText.Text = FText::FromString(*FString("High Score: " + FString::FromInt(CumulativeHighScore)));
+	}
 	Canvas->DrawItem(HighScoreText, 10.0f, 50.0f);
 
 	//Create a Time display
@@ -99,10 +107,18 @@ void ArAIMbowHUD::AddPoints()
 {
 	UGameplayStatics::PlaySoundAtLocation(this, SuccessSound, GetActorLocation());
 	if (!GameActive) {
-		GetWorld()->GetTimerManager().SetTimer(Timer, this, &ArAIMbowHUD::TimerEnd, 60.0f, false);
+		if (GameType == "Standard") {
+			GetWorld()->GetTimerManager().SetTimer(Timer, this, &ArAIMbowHUD::TimerEnd, 60.0f, false);
+		}
+		else if (GameType == "Cumulative") {
+			GetWorld()->GetTimerManager().SetTimer(Timer, this, &ArAIMbowHUD::TimerEnd, 5.0f, false);
+		}
 		GameActive = true;
 	}
 	else {
+		if (GameType == "Cumulative") {
+			GetWorld()->GetTimerManager().SetTimer(Timer, this, &ArAIMbowHUD::TimerEnd, 2.0f + GetWorld()->GetTimerManager().GetTimerRemaining(Timer), false);
+		}
 		Points += 100;
 	}
 }
@@ -118,27 +134,38 @@ void ArAIMbowHUD::SubtractPoints()
 void ArAIMbowHUD::TimerEnd() {
 	GameActive = false;
 
-	// Save if a new high score has been achieved
+	// Load sensitivity in case it was set during a game, otherwise set defaults
 	if (UGameplayStatics::DoesSaveGameExist("rAIMbowSave", 1)) {
 		UrAIMbowSave* LoadedSave = Cast<UrAIMbowSave>(UGameplayStatics::CreateSaveGameObject(UrAIMbowSave::StaticClass()));
 		LoadedSave = Cast<UrAIMbowSave>(UGameplayStatics::LoadGameFromSlot("rAIMbowSave", 1));
 		SavedSensitivity = LoadedSave->SavedSensitivity;
 	}
 	else {
-		HighScore = 0;
+		StandardHighScore = 0;
+		CumulativeHighScore = 0;
 		SavedSensitivity = 0.45;
 	}
-	if (Points > HighScore) {
-		HighScore = Points;
+
+	// Save if a new high score has been achieved
+	if (Points > StandardHighScore && GameType == "Standard") {
+		StandardHighScore = Points;
 		UrAIMbowSave* Save = Cast<UrAIMbowSave>(UGameplayStatics::CreateSaveGameObject(UrAIMbowSave::StaticClass()));
-		Save->HighScore = HighScore;
+		Save->StandardHighScore = StandardHighScore;
+		Save->CumulativeHighScore = CumulativeHighScore;
+		Save->SavedSensitivity = SavedSensitivity;
+		UGameplayStatics::SaveGameToSlot(Save, "rAIMbowSave", 1);
+	}
+	else if (Points > CumulativeHighScore && GameType == "Cumulative") {
+		CumulativeHighScore = Points;
+		UrAIMbowSave* Save = Cast<UrAIMbowSave>(UGameplayStatics::CreateSaveGameObject(UrAIMbowSave::StaticClass()));
+		Save->StandardHighScore = StandardHighScore;
+		Save->CumulativeHighScore = CumulativeHighScore;
 		Save->SavedSensitivity = SavedSensitivity;
 		UGameplayStatics::SaveGameToSlot(Save, "rAIMbowSave", 1);
 	}
 
+	//Reset points and all targets
 	Points = 0;
-
-	//Reset all targets
 	TArray<AActor*> FoundTargets;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ArAIMbowTarget::StaticClass(), FoundTargets);
 	for (int i = 0; i < FoundTargets.Num(); i++) {

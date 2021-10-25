@@ -15,8 +15,10 @@ class RAIMBOW_API UrAIMbowSave : public USaveGame
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY() int HighScore;
+	UPROPERTY() int StandardHighScore;
+	UPROPERTY() int CumulativeHighScore;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectile)
+	// The controller sensitivity, set by slider in pause menu
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Controller)
 	float SavedSensitivity;
 };

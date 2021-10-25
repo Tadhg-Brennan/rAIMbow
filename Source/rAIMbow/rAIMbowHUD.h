@@ -14,9 +14,15 @@ class ArAIMbowHUD : public AHUD
 public:
 	ArAIMbowHUD();
 
-	int Points;
-	UPROPERTY() int HighScore;
+	// Properties to be saved
+	UPROPERTY() int StandardHighScore;
+	UPROPERTY() int CumulativeHighScore;
 	UPROPERTY() float SavedSensitivity;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameType)
+	FString GameType;
+
+	int Points;
 
 	FString FlagType;
 	UFont* PointsFont;
@@ -25,6 +31,7 @@ public:
 	float XL;
 	float YL;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameActive)
 	bool GameActive;
 
 	FTimerHandle Timer;

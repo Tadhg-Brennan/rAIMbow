@@ -61,18 +61,10 @@ ArAIMbowCharacter::ArAIMbowCharacter()
 	L_MotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("L_MotionController"));
 	L_MotionController->SetupAttachment(RootComponent);
 
-	// Create a gun and attach it to the right-hand VR controller.
-	// Create a gun mesh component
-	VR_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("VR_Gun"));
-	VR_Gun->SetOnlyOwnerSee(false);			// otherwise won't be visible in the multiplayer
-	VR_Gun->bCastDynamicShadow = false;
-	VR_Gun->CastShadow = false;
-	VR_Gun->SetupAttachment(R_MotionController);
-	VR_Gun->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
-
+	// Set VR Projectile Spawn Location
 	VR_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("VR_MuzzleLocation"));
-	VR_MuzzleLocation->SetupAttachment(VR_Gun);
-	VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
+	VR_MuzzleLocation->SetupAttachment(R_MotionController);
+	VR_MuzzleLocation->SetRelativeLocation(FVector(100.0f, 64.0f, 100.0f));
 	VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
 
 	// Uncomment the following line to turn motion controllers on by default:
@@ -87,12 +79,10 @@ void ArAIMbowCharacter::BeginPlay()
 	// Show or hide the two versions of the gun based on whether or not we're using motion controllers.
 	if (bUsingMotionControllers)
 	{
-		VR_Gun->SetHiddenInGame(false, true);
 		Mesh1P->SetHiddenInGame(true, true);
 	}
 	else
 	{
-		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
 }
@@ -108,6 +98,10 @@ void ArAIMbowCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	// Bind zoom events
+	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &ArAIMbowCharacter::Zoom);
+	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &ArAIMbowCharacter::Unzoom);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ArAIMbowCharacter::OnFire);
@@ -290,7 +284,6 @@ void ArAIMbowCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-	//GEngine->AddOnScreenDebugMessage(-1, 20.f, FColor::Red, FString::SanitizeFloat(Rate * Sensitivity * BaseLookUpRate * GetWorld()->GetDeltaSeconds()));
 }
 
 bool ArAIMbowCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerInputComponent)
@@ -306,4 +299,14 @@ bool ArAIMbowCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerI
 	}
 	
 	return false;
+}
+
+void ArAIMbowCharacter::Zoom() {
+	UCameraComponent* Camera = GetFirstPersonCameraComponent();
+	Camera->SetFieldOfView(60.0f);
+}
+
+void ArAIMbowCharacter::Unzoom() {
+	UCameraComponent* Camera = GetFirstPersonCameraComponent();
+	Camera->SetFieldOfView(90.0f);
 }
