@@ -69,6 +69,9 @@ ArAIMbowCharacter::ArAIMbowCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	Zooming = false;
+	Unzooming = false;
 }
 
 void ArAIMbowCharacter::BeginPlay()
@@ -301,12 +304,56 @@ bool ArAIMbowCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerI
 	return false;
 }
 
+// Called every frame
+void ArAIMbowCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (Zooming)
+	{
+		ZoomIn(DeltaTime);
+	}
+
+	if (Unzooming)
+	{
+		ZoomOut(DeltaTime);
+	}
+}
+
 void ArAIMbowCharacter::Zoom() {
-	UCameraComponent* Camera = GetFirstPersonCameraComponent();
-	Camera->SetFieldOfView(60.0f);
+	if (!Zooming) {
+		Unzooming = false;
+		Zooming = true;
+	}
 }
 
 void ArAIMbowCharacter::Unzoom() {
+	if (!Unzooming) {
+		Zooming = false;
+		Unzooming = true;
+	}
+}
+
+void ArAIMbowCharacter::ZoomIn(float DeltaTime) {
 	UCameraComponent* Camera = GetFirstPersonCameraComponent();
-	Camera->SetFieldOfView(90.0f);
+	float CurrentFOV = Camera->FieldOfView;
+	if(FMath::IsNearlyEqual(60.0f, CurrentFOV, 1.0f)) {
+		Zooming = false;
+		Camera->SetFieldOfView(60.0f);
+	}
+	else {
+		Camera->SetFieldOfView(CurrentFOV - 200 * DeltaTime);
+	}
+}
+
+void ArAIMbowCharacter::ZoomOut(float DeltaTime) {
+	UCameraComponent* Camera = GetFirstPersonCameraComponent();
+	float CurrentFOV = Camera->FieldOfView;
+	if (FMath::IsNearlyEqual(90.0f, CurrentFOV, 1.0f)) {
+		Zooming = false;
+		Camera->SetFieldOfView(90.0f);
+	}
+	else {
+		Camera->SetFieldOfView(CurrentFOV + 200 * DeltaTime);
+	}
 }

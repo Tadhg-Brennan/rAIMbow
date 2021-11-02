@@ -43,6 +43,9 @@ class ArAIMbowCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	UMotionControllerComponent* L_MotionController;
 
+	// Checks for whether character is in the process of zooming or unzooming;
+	bool Zooming, Unzooming;
+
 public:
 	ArAIMbowCharacter();
 
@@ -139,6 +142,11 @@ protected:
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
 
 public:
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+	// Zooms And Unzooms Camera
+	virtual void ZoomIn(float DeltaTime);
+	virtual void ZoomOut(float DeltaTime);
 	/** Returns Mesh1P subobject **/
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
