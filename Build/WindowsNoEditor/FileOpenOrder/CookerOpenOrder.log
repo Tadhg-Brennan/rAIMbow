@@ -1,9 +1,9 @@
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 0
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uexp" 1
-"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 2
-"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uexp" 3
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 4
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uexp" 5
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 0
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uexp" 1
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 2
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uexp" 3
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 4
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uexp" 5
 "C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Fire2.uasset" 6
 "C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Fire2.uexp" 7
 "C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Textures/HeartCrosshair.uasset" 8
@@ -437,12 +437,12 @@
 "../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uexp" 436
 "../../../Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 437
 "../../../Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uexp" 438
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 439
-"../../../Engine/Content/BasicShapes/Cylinder.uexp" 440
-"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 441
-"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uexp" 442
-"../../../Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 443
-"../../../Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uexp" 444
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 439
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uexp" 440
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 441
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uexp" 442
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uasset" 443
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uexp" 444
 "../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 445
 "../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uexp" 446
 "../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 447
@@ -458,38 +458,38 @@
 "../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uexp" 457
 "../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 458
 "../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uexp" 459
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 460
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uexp" 461
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 462
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uexp" 463
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 464
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uexp" 465
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uasset" 466
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uexp" 467
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 468
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uexp" 469
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 470
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uexp" 471
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.uasset" 472
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.uexp" 473
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.uasset" 474
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.uexp" 475
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 476
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uexp" 477
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 478
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uexp" 479
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 480
-"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uexp" 481
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MRTexture.uasset" 482
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MRTexture.uexp" 483
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MRTexture.ubulk" 484
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/BaseTexture.uasset" 485
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/BaseTexture.uexp" 486
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/BaseTexture.ubulk" 487
-"../../../Engine/Content/EngineResources/Black.uasset" 488
-"../../../Engine/Content/EngineResources/Black.uexp" 489
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/M_XRController.uasset" 490
-"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/M_XRController.uexp" 491
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 460
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uexp" 461
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 462
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uexp" 463
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 464
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uexp" 465
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.uasset" 466
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/EmptyNormal.uexp" 467
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.uasset" 468
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/Empty.uexp" 469
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 470
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uexp" 471
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 472
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uexp" 473
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 474
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uexp" 475
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 476
+"../../../Engine/Content/BasicShapes/Cylinder.uexp" 477
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 478
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uexp" 479
+"../../../Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 480
+"../../../Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uexp" 481
+"../../../Engine/Content/EngineResources/Black.uasset" 482
+"../../../Engine/Content/EngineResources/Black.uexp" 483
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/M_XRController.uasset" 484
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/M_XRController.uexp" 485
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MRTexture.uasset" 486
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MRTexture.uexp" 487
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MRTexture.ubulk" 488
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/BaseTexture.uasset" 489
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/BaseTexture.uexp" 490
+"../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/BaseTexture.ubulk" 491
 "../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MI_GoogleDaydream.uasset" 492
 "../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/MI_GoogleDaydream.uexp" 493
 "../../../Engine/Plugins/Runtime/OpenXR/Content/Devices/GoogleDaydream/GoogleDaydreamController.uasset" 494
@@ -615,118 +615,118 @@
 "../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uexp" 614
 "../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchForQuestRiftSController.uasset" 615
 "../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchForQuestRiftSController.uexp" 616
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 617
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 618
-"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 619
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 620
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 621
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 622
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 623
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 624
-"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 625
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 626
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 627
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset" 628
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uexp" 629
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.ubulk" 630
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 631
-"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 632
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 633
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uexp" 634
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 635
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uexp" 636
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 637
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uexp" 638
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 639
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uexp" 640
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 641
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uexp" 642
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/Mf_Love_Song.uasset" 643
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/Mf_Love_Song.uexp" 644
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/Mf_Love_Song.ufont" 645
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/LoveSongFont.uasset" 646
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/LoveSongFont.uexp" 647
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/PauseMenuWidget.uasset" 648
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/PauseMenuWidget.uexp" 649
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Audio/ZapAudio.uasset" 650
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Audio/ZapAudio.uexp" 651
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 652
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uexp" 653
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 654
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uexp" 655
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.ubulk" 656
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 657
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uexp" 658
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.ubulk" 659
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 660
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uexp" 661
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.ubulk" 662
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 663
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uexp" 664
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.ubulk" 665
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 666
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uexp" 667
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" 668
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uexp" 669
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.ubulk" 670
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 671
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uexp" 672
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 673
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uexp" 674
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 675
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uexp" 676
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.ubulk" 677
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 678
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uexp" 679
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.ubulk" 680
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 681
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uexp" 682
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 683
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uexp" 684
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 685
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uexp" 686
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 687
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uexp" 688
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 689
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uexp" 690
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 691
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uexp" 692
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Run.uasset" 693
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Run.uexp" 694
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 695
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpStart.uexp" 696
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" 697
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uexp" 698
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset" 699
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uexp" 700
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 701
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Idle.uexp" 702
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" 703
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_AnimBP.uexp" 704
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 705
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPersonFire_Montage.uexp" 706
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" 707
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uexp" 708
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 709
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_N.uexp" 710
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_N.ubulk" 711
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 712
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_D.uexp" 713
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_D.ubulk" 714
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Wood_Oak.uasset" 715
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Wood_Oak.uexp" 716
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Water_N.uasset" 717
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Water_N.uexp" 718
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Water_N.ubulk" 719
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 720
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Perlin_Noise_M.uexp" 721
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Perlin_Noise_M.ubulk" 722
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Water_Lake.uasset" 723
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Water_Lake.uexp" 724
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/CubeMaterial.uasset" 725
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/CubeMaterial.uexp" 726
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/1M_Cube.uasset" 727
-"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/1M_Cube.uexp" 728
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/CubeMaterial.uasset" 617
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/CubeMaterial.uexp" 618
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/1M_Cube.uasset" 619
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/Geometry/Meshes/1M_Cube.uexp" 620
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 621
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 622
+"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 623
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 624
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 625
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 626
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 627
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 628
+"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 629
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 630
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_N.uexp" 631
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_N.ubulk" 632
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 633
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_D.uexp" 634
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Wood_Oak_D.ubulk" 635
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Wood_Oak.uasset" 636
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Wood_Oak.uexp" 637
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Water_N.uasset" 638
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Water_N.uexp" 639
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Water_N.ubulk" 640
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 641
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Perlin_Noise_M.uexp" 642
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Textures/T_Perlin_Noise_M.ubulk" 643
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Water_Lake.uasset" 644
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/StarterContent/Materials/M_Water_Lake.uexp" 645
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 646
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 647
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset" 648
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uexp" 649
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.ubulk" 650
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 651
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uexp" 652
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 653
+"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 654
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 655
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uexp" 656
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 657
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uexp" 658
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 659
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uexp" 660
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 661
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uexp" 662
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Idle.uasset" 663
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Idle.uexp" 664
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset" 665
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpEnd.uexp" 666
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset" 667
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpLoop.uexp" 668
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset" 669
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_JumpStart.uexp" 670
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Run.uasset" 671
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_Run.uexp" 672
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset" 673
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPerson_AnimBP.uexp" 674
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset" 675
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Animations/FirstPersonFire_Montage.uexp" 676
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/Mf_Love_Song.uasset" 677
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/Mf_Love_Song.uexp" 678
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/Mf_Love_Song.ufont" 679
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/LoveSongFont.uasset" 680
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Font/LoveSongFont.uexp" 681
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/PauseMenuWidget.uasset" 682
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/PauseMenuWidget.uexp" 683
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Audio/ZapAudio.uasset" 684
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/rAIMbowContent/Audio/ZapAudio.uexp" 685
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 686
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uexp" 687
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 688
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uexp" 689
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.ubulk" 690
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset" 691
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uexp" 692
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.ubulk" 693
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 694
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uexp" 695
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.ubulk" 696
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 697
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uexp" 698
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.ubulk" 699
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 700
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uexp" 701
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset" 702
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uexp" 703
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.ubulk" 704
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 705
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uexp" 706
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 707
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uexp" 708
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 709
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uexp" 710
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.ubulk" 711
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 712
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uexp" 713
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.ubulk" 714
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 715
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uexp" 716
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 717
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uexp" 718
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 719
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uexp" 720
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 721
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uexp" 722
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset" 723
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Materials/M_UE4Man_Body.uexp" 724
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset" 725
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uexp" 726
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset" 727
+"C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uexp" 728
 "C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.uexp" 729
 "C:/Users/Tadhg/OneDrive/Documents/Unreal Projects/rAIMbow/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" 730
 "../../../Engine/Content/Maps/Entry_BuiltData.uasset" 731
